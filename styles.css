@@ -14,6 +14,17 @@ h4, tr{
 }
 @media only screen and (max-width: 900px){
     #number{
-        font-size: 22px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    #heading{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 900px){
+    #lunchSpecial{
+        font-size: 14px;
     }
 }
