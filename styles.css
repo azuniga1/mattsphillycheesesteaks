@@ -9,3 +9,11 @@ h4, tr{
     background-color: #35f706;
 }
 
+#menu{
+    background-color: #FF69B4;
+}
+@media only screen and (max-width: 900px){
+    #number{
+        font-size: 22px;
+    }
+}

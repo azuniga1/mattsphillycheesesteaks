@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  <div class="container mb-5">
+  <div class="container">
 
     <div class="row bg-dark text-warning">
       <h1 class="text-center mt-4 mb-2 display-5">Matt's Philly Cheese Steaks <br>
@@ -25,9 +25,9 @@
       </h1>
     </div>
 
-    <div class="row bg-danger d-flex align-items-center sticky-top">
+    <div class="row bg-danger d-flex align-items-center sticky-top border border-2 border-dark">
       <div class="col">
-        <h3 class="ps-2 "><i class="bi bi-telephone-fill"></i> (801) 400-2507</h3>
+        <h3 class="ps-2" id="number"><i class="bi bi-telephone-fill"></i> (801) 400-2507</h3>
       </div>
       <div class="col text-end pe-5 align-middle">
         <a href="https://www.facebook.com/profile.php?id=100078928927239"><i class="bi bi-facebook"
@@ -62,7 +62,7 @@
 
 
     <div class="col">
-      <div class="row text-center bg-warning pt-3 pb-2">
+      <div class="row text-center bg-warning pt-3 pb-2 border border-2 border-dark">
         <h2>Lunch Special</h2>
         <h3><i class="bi bi-stars"></i> 1 Small cheese steak, 1 bag of chips, 1 soda - $7.50 <i class="bi bi-stars"></i>
         </h3>
@@ -71,9 +71,9 @@
 
 
       <div class="row">
-        <div class="col bg-info pt-3 col-12 col-lg-6">
+        <div class="col bg-info pt-3 col-12 col-lg-6 border border-2 border-dark pt-5">
           <h2 class="text-center fw-bold">MENU</h2>
-          <div class="row border m-2 p-2 border-2 rounded bg-secondary">
+          <div class="row border m-2 p-2 border-2 rounded border-dark shadow-lg" id="menu">
             <div class="col ">
               <ul>
                 <li>Onions</li>
@@ -84,7 +84,7 @@
             </div>
 
             <div class="col text-center">
-              <h4>Matt's Favorite Toppings</h4>
+              <h4 class="fw-bold">Matt's Favorite Toppings</h4>
             </div>
 
             <div class="col">
@@ -144,33 +144,24 @@
           </div>
         </div>
 
-        <div class="col text-center" id="hours">
+        <div class="col text-center border border-2 border-dark" id="hours">
+          <div class="row pt-3">
+            <img class="rounded shadow-lg" src="img/photo.JPG">
+          </div>
           <h2 class="pt-3 fw-bold">BUSINESS HOURS</h2>
           <table class="table table-borderless ">
             <tbody class="fs-5 text">
               <tr>
-                <th scope="row">Monday</th>
+                <th scope="row">Monday - Thursday</th>
                 <td>11AM - 3PM <br> 4:30PM - 8PM</td>
               </tr>
               <tr>
-                <th scope="row">Tuesday</th>
-                <td>11AM - 3PM <br> 4:30PM - 8PM</td>
-              </tr>
-              <tr>
-                <th scope="row">Wednesday</th>
-                <td>11AM - 3PM <br> 4:30PM - 8PM</td>
-              </tr>
-              <tr>
-                <th scope="row">Thursday</th>
-                <td>11AM - 3PM <br> 4:30PM - 8PM</td>
-              </tr>
-              <tr>
-                <th scope="row">Friday</th>
+                <th scope="row">Friday - Saturday</th>
                 <td>11AM - 3PM <br> 4:30PM - 9PM</td>
+                
               </tr>
               <tr>
-                <th scope="row">Saturday</th>
-                <td>11AM - 3PM <br> 4:30PM - 9PM</td>
+                
               </tr>
               <tr>
                 <th scope="row">Sunday</th>
@@ -182,12 +173,14 @@
       </div>
     </div>
 
-    <div class="row pt-3 pb-2 bg-dark text-warning text-center">
+    <div class="row pt-3 pb-3 bg-dark text-warning text-center">
       <i class="bi bi-shop"></i>
       <h6>Matt's Philly Cheese Steaks</h6>
       <h6>151 N University Ave</h6>
       <h6>Provo, UT 84601</h6>
     </div>
+  </div>
+</div>
 
 
 
